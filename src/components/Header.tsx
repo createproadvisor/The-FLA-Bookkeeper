@@ -89,7 +89,7 @@ export function Header() {
           <div className="flex gap-4 justify-center">
             <div className="flex flex-col justify-center items-end sm:gap-x-12">
               <Link href="/" aria-label="Home">
-                <span className="font-extrabold italic text-xl sm:text-4xl">
+                <span className="font-extrabold italic text-2xl sm:text-4xl">
                   The FLA Bookkeeper.
                 </span>
               </Link>
@@ -99,7 +99,7 @@ export function Header() {
             </div>
             <div>
               <Image src={require("@/images/FLA Bookkeeper Image.webp")} 
-                alt="logo" className="w-20" />
+                alt="logo" className="w-10 sm:w-20" />
             </div>
           </div>
           <div className="flex justify-center pt-4">
