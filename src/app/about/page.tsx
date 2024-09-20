@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
         <Header />
-        <div className="flex" style={{backgroundColor: '#f7ee54'}}>
+        <div className="flex max-w-7xl mx-auto" style={{backgroundColor: '#f7ee54'}}>
         <div className="flex flex-col p-8" style={{flex:3}}>
             <h1 className="max-w-4xl mt-4 mb-4 font-serif text-3xl tracking-tight text-gray-800">
                 Get in Touch with The FLA Bookkeeper
